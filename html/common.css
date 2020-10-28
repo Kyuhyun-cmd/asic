@@ -1,0 +1,68 @@
+body {margin: 0px; background-color: rgb(242,244,247); text-align: center;}
+h2 {margin: 0px;}
+a {text-decoration: none; color: #000;}
+.list-wrap {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+}
+.list-wrap h2 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 0px 20px;
+    color: white;
+    background-color: rgb(0,128,193);
+}
+.list-wrap .contents {
+    padding: 0px 20px;
+    background-color: white;
+}
+.list-wrap .contents .li {
+    display: block;
+    border-bottom: 1px solid rgb(242,244,247);
+    padding: 10px 0px;
+}
+.list-wrap .contents .li .title {
+    font-size: 16px;
+    color: rgb(100,105,120);
+}
+.list-wrap .contents .li .info {
+    font-size: 14px;
+    color: rgb(155,160,180);
+    margin-top: 4px
+}
+
+.tbl_list {
+    border-collapse: collapse;
+    border: 0px;
+    width: 100%;
+}
+.tbl_list th {
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    background-color: rgb(0,128,193);
+}
+.tbl_list td {
+    background-color: white;
+    border-bottom: 1px solid rgb(242,244,247);
+    padding: 4px 0px;
+}
+
+.top-bar {
+    height: 60px;
+    background-color: rgb(0,128,193);
+    margin-bottom: 15px;
+}
+.top-bar .today {
+    font-size: 30px;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
